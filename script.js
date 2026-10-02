@@ -87,7 +87,7 @@ contactForm.addEventListener("submit", function (event) {
     );
 
     window.location.href =
-        "mailto:your-email@example.com" +
+        "mailto:bibekkrmaity.datascience@gmail.com" +
         "?subject=" + subject +
         "&body=" + body;
 

@@ -87,13 +87,7 @@ contactForm.addEventListener("submit", function (event) {
     );
 
     window.location.href =
-<<<<<<< HEAD
-        "mailto:bibekkrmaity@gmail.com" +
-=======
-        "mailto:bibekkrmaity.datascience@gmail.com" +
->>>>>>> bcf65bba0ee226000be53ef5cfec81439f2d15df
-        "?subject=" + subject +
-        "&body=" + body;
+        `mailto:bibekkrmaity@gmail.com?subject=${subject}&body=${body}`;
 
 });
 
